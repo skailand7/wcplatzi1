@@ -76,11 +76,11 @@ body {
 @media (min-width: 640px) {
   .main-container {
     background-image: url(../images/bg-desktop.svg);
-    background-size: contain;
+    background-size: cover;
   }
   .logo img {
     height: 48px;
-    padding: 48px 0 0 48px;
+    padding: 60px 0 0 60px;
   }
   .content {
     display: flex;
@@ -90,12 +90,28 @@ body {
     position: relative;
   }
   .content img {
-    width: 100%;
+    width: 50%;
+    padding: 64px 0 0 60px;
   }
   .social-media {
     position: absolute;
-    right: 24px;
+    right: 60px;
     bottom: 0;
     margin-bottom: 24px;
+  }
+  .advise {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+  }
+  .advise p,
+  .advise h1 {
+    text-align: left;
+  }
+  .advise a {
+    margin: 0;
+    width: 40%;
   }
 }
